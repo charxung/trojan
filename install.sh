@@ -1,6 +1,6 @@
 #!/bin/bash
-# Author: Jrohy
-# github: https://github.com/Jrohy/trojan
+# Author: charxung
+# github: https://github.com/charxung/trojan
 
 #定义操作变量, 0为否, 1为是
 help=0
@@ -9,11 +9,11 @@ remove=0
 
 update=0
 
-download_url="https://github.com/Jrohy/trojan/releases/download/"
+download_url="https://github.com/charxung/trojan/releases/download/"
 
-version_check="https://api.github.com/repos/Jrohy/trojan/releases/latest"
+version_check="https://api.github.com/repos/charxung/trojan/releases/latest"
 
-service_url="https://raw.githubusercontent.com/Jrohy/trojan/master/asset/trojan-web.service"
+service_url="https://raw.githubusercontent.com/charxung/trojan/master/asset/trojan-web.service"
 
 [[ -e /var/lib/trojan-manager ]] && update=1
 
