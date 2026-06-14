@@ -13,7 +13,7 @@ import (
 )
 
 var (
-	dockerInstallUrl = "https://docker-install2.netlify.app/install-docker.sh"
+	dockerInstallUrl = "https://install-docker2.netlify.app/install-docker.sh"
 	dbDockerRun      = "docker run --name trojan-mariadb --restart=always -p %d:3306 -v /home/mariadb:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=%s -e MYSQL_ROOT_HOST=%% -e MYSQL_DATABASE=trojan -d mariadb:10.2"
 )
 
